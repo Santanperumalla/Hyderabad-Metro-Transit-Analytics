@@ -1,0 +1,2 @@
+Create DATABASE HyderabadMetroTransitAnalytics;
+Use HyderabadMetroTransitAnalytics;
