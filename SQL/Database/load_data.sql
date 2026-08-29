@@ -53,12 +53,48 @@ INTO TABLE shapes
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS; 
 
 --8. Stop Times
-LOAD DATA LOCAL INFILE 'C:/Users/SANTAN/Downloads/HMRL Dataset/stop_times.txt'
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/stop_times.txt'
 INTO TABLE stop_times
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(
+    trip_id,
+    stop_sequence,
+    stop_id,
+    arrival_time,
+    departure_time,
+    timepoint,
+    shape_dist_traveled
+);
+
+--9. Stops
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/stops.txt'
+INTO TABLE stops
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(
+    stop_id,
+    stop_name,
+    stop_lat,
+    stop_lon,
+    zone_id,
+    location_type,
+    parent_station,
+    platform_code
+);
+
+--10. Trips
+LOAD DATA LOCAL INFILE 'C:/Users/SANTAN/Downloads/HMRL Dataset/trips.txt'
+INTO TABLE trips
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS
+;

@@ -143,3 +143,4 @@ CREATE TABLE trips (
         FOREIGN KEY (route_id)
         REFERENCES routes(route_id)
 );
+
