@@ -1,4 +1,4 @@
-# Hyderabad Metro — Database Design
+# Hyderabad Metro Transit Analytics — Database Design
 
 ## 1. Overview
 

@@ -1,4 +1,4 @@
-# Hyderabad Metro — SQL Concepts Used
+# Hyderabad Metro Transit Analytics — SQL Concepts Used
 
 ## 1. Overview
 

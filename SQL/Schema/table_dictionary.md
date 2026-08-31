@@ -1,4 +1,4 @@
-# Hyderabad Metro — MySQL Table Dictionary
+# Hyderabad Metro Transit Analytics — MySQL Table Dictionary
 
 > **Purpose:** Data dictionary for the Hyderabad Metro MySQL database.
 >
