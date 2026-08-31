@@ -1,0 +1,5 @@
+--- USING THE REQUIRED DATABASE
+USE hyderabadmetrotransitanalytics;
+
+
+---QUERIES WITH AGGREGATIONS FOR FARE ANALYSIS
