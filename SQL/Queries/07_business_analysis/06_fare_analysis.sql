@@ -9,9 +9,7 @@ FROM fare_attributes;
 SELECT
     fare_id,
     price,
-    currency_type,
-    payment_method,
-    transfers
+    currency_type
 FROM fare_attributes
 ORDER BY price;
 
