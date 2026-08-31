@@ -1,4 +1,4 @@
-# Hyderabad Metro — MySQL Data Analytics Project
+# Hyderabad Metro Transit Analytics — MySQL Data Analytics Project
 
 ## 📌 Project Overview
 
