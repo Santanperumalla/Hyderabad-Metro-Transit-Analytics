@@ -656,7 +656,6 @@ This project demonstrates practical experience in:
 * Subqueries
 * CTEs
 * Window functions
-* Analytical views
 * Transportation data analysis
 * Business-question formulation
 * Data-driven findings
