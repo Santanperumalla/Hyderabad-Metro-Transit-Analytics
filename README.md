@@ -729,8 +729,6 @@ Advanced SQL
     ↓
 Business Analysis
     ↓
-Analytical Views
-    ↓
 Findings
     ↓
 Recommendations
